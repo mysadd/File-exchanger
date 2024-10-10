@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    font-family: 'Cormorant Garamond';
+}
+
+.content {
+    height: 100vh;
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Центрирует контент по вертикали */
+    align-items: center;
+    /* Центрирует контент по горизонтали */
+}
+
+.button_submit {
+    /* Исправлено имя класса */
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* Добавляем указатель при наведении */
+}
+
+.main_text {
+    margin: 40px auto;
+    text-align: center;
+    /* Центрирование текста */
+}

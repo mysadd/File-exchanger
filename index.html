@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Обменник файлов</title>
 </head>
 
-<body>
-    <h1>Загрузите файл</h1>
-    <form id="uploadForm" enctype="multipart/form-data">
-        <input type="file" name="file" id="fileInput">
-        <button type="submit">Загрузить</button>
-    </form>
+<body class="page">
+    <main class="content">
+        <h1 class="main_text">Загрузите файл</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file" id="fileInput">
+            <button type="submit" class="button_submit">Загрузить</button>
+            <!-- Исправлен класс кнопки -->
+        </form>
+    </main>
 
     <script>
         const form = document.getElementById('uploadForm');
